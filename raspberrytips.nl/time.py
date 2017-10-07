@@ -19,7 +19,8 @@ image = Image.new('1', (disp.width, disp.height))
 draw = ImageDraw.Draw(image)
 
 font = ImageFont.truetype('FreeSerif.ttf', 25)
-draw.text((1, 0),tijd ,  font=font, fill=255)
+# first 5 lines are yellow
+draw.text((1, 5),tijd ,  font=font, fill=255)
 
 disp.image(image)
 disp.display()
