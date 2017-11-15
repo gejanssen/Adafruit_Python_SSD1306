@@ -398,15 +398,23 @@ Plaatje:
 
 2 Lijns versie
 
+[![badge](https://raw.githubusercontent.com/gejanssen/Adafruit_Python_SSD1306/master/ssd1306-2line-sm.jpg)](https://raw.githubusercontent.com/gejanssen/Adafruit_Python_SSD1306/master/ssd1306-2line-sm.jpg)
+
+
 ```
 gej@rpi-zw3:~/Adafruit_Python_SSD1306/raspberrytips.nl $ sudo python ssd1306_2lines.py "Lijn 1" "Lijn 2"
 gej@rpi-zw3:~/Adafruit_Python_SSD1306/raspberrytips.nl $
 
 ```
 
+
 1 Lijns versie
+
+[![badge](https://raw.githubusercontent.com/gejanssen/Adafruit_Python_SSD1306/master/ssd1306-1line-sm.jpg)](https://raw.githubusercontent.com/gejanssen/Adafruit_Python_SSD1306/master/ssd1306-1line-sm.jpg)
+
 
 ```
 gej@rpi-zw3:~/Adafruit_Python_SSD1306/raspberrytips.nl $ sudo python ssd1306_1line.py "Lijn 1"
 gej@rpi-zw3:~/Adafruit_Python_SSD1306/raspberrytips.nl $ 
 ```
+
