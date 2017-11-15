@@ -20,7 +20,7 @@ Receiving objects: 100% (112/112), 34.60 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (57/57), done.
 gej@rpi-zw2:~ $ 
 ```
-Enable i2c
+#Enable i2c
 
 ```
 gej@rpi-zw2:~/Adafruit_Python_SSD1306 $ sudo raspi-config
@@ -30,7 +30,7 @@ I2C,
 Select
 Would you like the ARM I2C interface to be enabled?
 Yes
-
+```
 
 #Test I2c
 
@@ -45,7 +45,7 @@ Geen i2c, even aanzetten
 ```
 gej@rpi-zw3:~/Adafruit_Python_SSD1306 $ sudo raspi-config nonint do_i2c 0
 
--zw3:~/Adafruit_Python_SSD1306 $ i2cdetect -y 1
+rpi-zw3:~/Adafruit_Python_SSD1306 $ i2cdetect -y 1
 Error: Could not open file `/dev/i2c-1': Permission denied
 Run as root?
 gej@rpi-zw3:~/Adafruit_Python_SSD1306 $ sudo i2cdetect -y 1
